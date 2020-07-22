@@ -57,6 +57,9 @@ module.exports = function(app) {
       });
   });
 
+  app.post("/api/books", function(req, res) {
+    db
+  })
   // DELETE route for deleting posts
   app.delete("/api/posts/:id", function(req, res) {
     db.Post.destroy({
