@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "password",
-    "database": "blogger2",
+    "database": "mern_reading_list",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"

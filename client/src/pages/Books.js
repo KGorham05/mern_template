@@ -92,13 +92,13 @@ function Books() {
             {books.length ? (
               <List>
                 {books.map(book => (
-                  <ListItem key={book._id}>
-                    <Link to={"/books/" + book._id}>
+                  <ListItem key={book.id}>
+                    <Link to={"/books/" + book.id}>
                       <strong>
                         {book.title} by {book.author}
                       </strong>
                     </Link>
-                    <DeleteBtn onClick={() => deleteBook(book._id)} />
+                    <DeleteBtn onClick={() => deleteBook(book.id)} />
                   </ListItem>
                 ))}
               </List>
